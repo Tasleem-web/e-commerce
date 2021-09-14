@@ -1,11 +1,12 @@
 {
-  "name": "y",
+  "name": "e-commerce",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export":"next export && touch out/.nojekyll",
     "lint": "next lint"
   },
   "dependencies": {
